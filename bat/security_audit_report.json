@@ -1,0 +1,242 @@
+{
+  "local_security": [
+    {
+      "description": "Windows Firewall - Standard Profile",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile",
+      "value_name": "EnableFirewall",
+      "current_value": 1,
+      "expected_value": "1",
+      "status": "ENABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Disable Shutdown Without Logon",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\policies\\system",
+      "value_name": "ShutdownWithoutLogon",
+      "current_value": 1,
+      "expected_value": "0",
+      "status": "DISABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Enforce Shell Extension Security",
+      "registry_path": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "EnforceShellExtensionSecurity",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Secure Desktop",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Windows",
+      "value_name": "SecureDesktop",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Authentication Retries Limit",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\RemoteAccess\\Parameters",
+      "value_name": "AuthenticateRetries",
+      "current_value": "NOT FOUND",
+      "expected_value": "3",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Disable My Computer Properties",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoPropertiesMyComputer",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Disable Band Customize",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoBandCustomize",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Disable Toolbar Customize",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoToolbarCustomize",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Messenger Service (Disabled)",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Services\\Messenger",
+      "value_name": "Start",
+      "current_value": "NOT FOUND",
+      "expected_value": "4",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Hide Last Username",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
+      "value_name": "DontDisplayLastUserName",
+      "current_value": 0,
+      "expected_value": "1",
+      "status": "DISABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Disable Folder Options",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoFolderOptions",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Disable File Menu",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoFileMenu",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    }
+  ],
+  "domain_security": [
+    {
+      "description": "Disable Anonymous Access Inclusion",
+      "registry_path": "HKLM\\System\\CurrentControlSet\\Control\\Lsa",
+      "value_name": "EveryoneIncludesAnonymous",
+      "current_value": 0,
+      "expected_value": "0",
+      "status": "ENABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Prevent Auto-Run on Drives",
+      "registry_path": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+      "value_name": "NoDriveTypeAutoRun",
+      "current_value": "NOT FOUND",
+      "expected_value": "255",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Disable CD-ROM Redirection",
+      "registry_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+      "value_name": "DisableCdm",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Allocate CD-ROMs to Logged User Only",
+      "registry_path": "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+      "value_name": "AllocateCDRoms",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Allocate Floppies to Logged User Only",
+      "registry_path": "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+      "value_name": "AllocateFloppies",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Enforce Local Profile Usage",
+      "registry_path": "HKLM\\Software\\Policies\\Microsoft\\Windows\\System",
+      "value_name": "LocalProfile",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Cached Logons Count Limit",
+      "registry_path": "HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+      "value_name": "CachedLogonsCount",
+      "current_value": "10",
+      "expected_value": "1",
+      "status": "DISABLED",
+      "reg_type": 1
+    },
+    {
+      "description": "Require Ctrl+Alt+Del",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Winlogon",
+      "value_name": "DisableCAD",
+      "current_value": "NOT FOUND",
+      "expected_value": "0",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Single Session Per User",
+      "registry_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+      "value_name": "SingleSessionPerUser",
+      "current_value": "NOT FOUND",
+      "expected_value": "1",
+      "status": "NOT FOUND",
+      "reg_type": null
+    }
+  ],
+  "password_security": [
+    {
+      "description": "Minimum Password Length",
+      "registry_path": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Network",
+      "value_name": "MinPwdLen",
+      "current_value": "NOT FOUND",
+      "expected_value": "8",
+      "status": "NOT FOUND",
+      "reg_type": null
+    },
+    {
+      "description": "Limit Blank Password Use",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+      "value_name": "LimitBlankPasswordUse",
+      "current_value": 1,
+      "expected_value": "1",
+      "status": "ENABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Disable LM Hash Storage",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+      "value_name": "NoLMHash",
+      "current_value": 1,
+      "expected_value": "1",
+      "status": "ENABLED",
+      "reg_type": 4
+    },
+    {
+      "description": "Restrict Anonymous Access",
+      "registry_path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+      "value_name": "RestrictAnonymous",
+      "current_value": 0,
+      "expected_value": "1",
+      "status": "DISABLED",
+      "reg_type": 4
+    }
+  ],
+  "storage_security": [],
+  "summary": {
+    "total_checks": 26,
+    "enabled": 5,
+    "disabled": 4,
+    "unknown": 17
+  },
+  "audit_time": "2025-07-15T10:05:14.031711",
+  "audit_version": "1.0"
+}
